@@ -51,11 +51,14 @@ img {
 }
 
 .submenu {
-    display:none;
+    display: none;
     position: absolute;
     background-color: #444;
     list-style: none;
     padding: 10px;
+    min-width: 150px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    border-radius: 5px;
 }
 
 .dropdown:hover .submenu {
